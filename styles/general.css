@@ -1,0 +1,75 @@
+@media (min-width:1536px) {
+
+.accordian{
+
+    width: 70%;
+}
+
+.accordian__heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.content__container{
+    
+    font-size: 1.5rem;
+    margin: 30px;
+}
+.content__answer{
+    height: 60%;
+}
+.second__content{
+    padding: 10px 0;
+    border-top: 1px solid black ;
+    border-bottom:1px solid black ;
+}
+
+.content__answer{
+    height: 0px;
+    overflow: hidden;
+
+}
+
+.accordian .content__container.active .content__answer {
+height: 50px;
+
+}
+
+}
+    
+
+@media (max-width:475px) {
+    .accordian{
+
+        width: 90%;
+    }
+    
+    .accordian__heading{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .content__container{
+        
+        font-size: 1rem;
+        margin: 30px;
+    }
+    .content__answer{
+        height: 60%;
+    }
+    .second__content{
+        padding: 10px 0;
+        border-top: 1px solid black ;
+        border-bottom:1px solid black ;
+    }
+    
+    .content__answer{
+        height: 0px;
+        overflow: hidden;
+    
+    }
+    
+    .accordian .content__container.active .content__answer {
+    height: 100px;
+    
+    }
+    
+}
